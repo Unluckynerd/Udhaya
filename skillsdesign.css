@@ -1,0 +1,117 @@
+body
+{
+    /* position: fixed; */
+   
+}
+u
+{
+    color:white;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px blue;
+}
+.skillsbar
+{
+    /* position: fixed; */
+    height:max-content;
+    width: max-content;
+    background-color: black;
+
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    font-size: 23px;
+    font-style: oblique;
+    padding-left: 300px;
+    margin: 10px;
+    margin-left:50px;
+    
+}
+.skillsbar .programming
+{
+    width:100%;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 5px black;
+    display:inline-block;
+    background-image:linear-gradient(white  ,black);
+    color:white;
+    
+}
+
+.skillsbar .programming .cpp ,.c, .java ,.python
+{
+    display:block;
+    height:max-content;
+    width: max-content;
+    /* padding-bottom: 10px; */
+    margin-bottom: 2px;
+    padding:5px;
+    padding-left :20px;
+}
+.skillsbar .programming .c{
+    width: 75%;
+    background-image: linear-gradient(blue 30%,black);
+   
+}
+.skillsbar .programming .cpp{
+    width: 70%;
+    background-image: linear-gradient(blue 30%,black);
+}
+
+.skillsbar .programming .java{
+    width: 96%;
+    background-image: linear-gradient(blue 30%,black);
+}
+
+.skillsbar .programming .python{
+    width: 80%;
+    background-image: linear-gradient(blue 30%,black);
+}
+.skillsbar .backendskills .java .per{
+    text-align: right;
+}
+
+/*front end*/
+.skillsbar .programming .html , .css ,.js
+{
+    display:block;
+    height:max-content;
+    width: max-content;
+    /* padding-bottom: 10px; */
+    margin-bottom: 5px;
+    padding:2px;
+    padding-left :20px;   
+}
+.skillsbar .programming .html
+{
+    width: 70%;
+    background-image: linear-gradient(blue 30%,black);
+}
+.skillsbar .programming .css
+{
+    width: 65%;
+    background-image: linear-gradient(blue 30%,black);
+}
+.skillsbar .programming .js
+{
+    width: 55%;
+    background-image: linear-gradient(blue 30%,black);
+}
+
+/*others*/
+.skillsbar .others .git ,.restapi, .mysql , .postgresql, .payments, .javabackend 
+{
+  background-image: linear-gradient(blue 30%,black);
+  display:block;
+  width:50%;
+  padding:5px;
+  color:white;
+  text-decoration: dotted;
+  /* text-align: center;*/
+} 
+
+#skills
+{
+    background-image:linear-gradient(blue,black);
+}
